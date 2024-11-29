@@ -10,7 +10,7 @@ st.set_page_config(page_title="ESX Cash Market Dashboard", layout="wide")
 # Login credentials dictionary
 USER_CREDENTIALS = {
     "admin@esx.et": bcrypt.hashpw("Laabza^09".encode(), bcrypt.gensalt()).decode('utf-8'),
-    "tadele@esx.et": bcrypt.hashpw("esx123".encode(), bcrypt.gensalt()).decode('utf-8')
+    "tadele@esx.et": bcrypt.hashpw("esx123".encode(), bcrypt.gensalt()).decode('utf-8'),
     "dawit.sernessa@esx.et": bcrypt.hashpw("esx123".encode(), bcrypt.gensalt()).decode('utf-8'),
     "eskedar.sileshi@esx.et": bcrypt.hashpw("esx123".encode(), bcrypt.gensalt()).decode('utf-8'),
     "michael.habte@esx.et": bcrypt.hashpw("esx123".encode(), bcrypt.gensalt()).decode('utf-8')
